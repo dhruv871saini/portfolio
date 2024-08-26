@@ -1,0 +1,142 @@
+  .orange {
+    background-color: #f56539;
+    /* background-color: #ad5d0c;  it is also a best suitable color */
+    height: 100vh;
+    margin: 0;
+   
+  }
+  .oranges{
+    color: #f56539;
+    /* color: #ad5d0c;   it is also a best suitable color */
+
+  }
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    width: 350PX; /* Adjust size as needed */
+    height:350PX; /* Adjust size as needed */
+  }
+/* Define the keyframes for the waving animation with a rest period */
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(15deg);
+    }
+    30% {
+      transform: rotate(0deg);
+    }
+    45% {
+      transform: rotate(-15deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(0deg);
+    }
+     100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* Apply the waving animation to the waveicon class */
+  .waveicon {
+    width: 40px;
+    animation: wave 1.5s ease-in-out infinite;
+  }
+  .padding{
+    padding-left: 200px;
+    padding-top: 200px;
+  }
+
+
+.allLogo {
+  position: absolute; /* Positioning context within the parent div */
+  bottom: 0; /* Align to bottom */
+  left: 0; /* Align to left */
+  margin: 10px; /* Optional: adjust spacing from the edges */
+  margin-left: 30px;
+}
+
+.logoSize {
+  width: 45px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 30px; /* Adjust spacing between logos */
+  cursor: pointer;
+}
+.btn1 {
+    background-color: #111; 
+    color: #ff5722;
+    border: 2px solid #ff5722;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    background-color: #ff5722;
+    color: #111;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.offcanvas-header {
+    background-color: #111;
+    color: #ff5722;
+  }
+  
+  .offcanvas-title {
+    font-weight: bold;
+  }
+  
+  .offcanvas-body {
+    color: #ff5722;
+    background-color: #111;
+    /* font-size: 455px; */
+}
+/* .margin-sign{
+  margin-top: 15%;
+} */
+ *{
+  /* position: relative; */
+ }
+ .rows{
+  overflow: hidden;
+  
+}
+.a{
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  font-weight: 700;
+}
+.broranges{
+  /* border-color: #f56539; */
+  /* border-radius: 102em; */
+  /* border: 1px solid  #f56539; */
+  /* border: 5px solid  rgb(242, 50, 20); */
+  background-color:#f56539;
+  float: right;
+  padding: 5px;
+}
+.broranges:hover{
+  background-color: aqua;
+}
